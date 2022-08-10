@@ -2,9 +2,11 @@
 Using Apriori algorithm to find interesting association rules, using support, confidence threshold and standardised lift for a grocery dataset.
 This algorithm can be used for grocery stores : Tesco, Lidl etc.
 
-## Aim
+## Problem
 
-![](Result/Grocery_store)
+Sometimes, it is difficult to organise and place items in grocery stores, if we use apriori algorithm to identify association between items -> this approach can be used to solve this problem.
+
+![](Result/Grocery_store.jpeg)
 
 ## Package
 The `arules` package in R can be used to mine association rules from transaction data.
