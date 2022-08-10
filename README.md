@@ -1,5 +1,10 @@
 # Market-Basket-Analysis
-Using Apriori algorithm to find interesting association rules, using support, confidence threshold and standardised lift.
+Using Apriori algorithm to find interesting association rules, using support, confidence threshold and standardised lift for a grocery dataset.
+This algorithm can be used for grocery stores : Tesco, Lidl etc.
+
+## Aim
+
+![](Result/Grocery_store)
 
 ## Package
 The `arules` package in R can be used to mine association rules from transaction data.
@@ -18,3 +23,6 @@ Groceries data has been used to perform the analysis, data is stored in a partic
 After performing, association rules mining. Here, support theshold has been considered as 0.01, confidence threshhold as 0.5.
 Most interesting rules based on association value (considered as standardized lift) are :
 
+![](Result/Association_Rules.png)
+
+Higher the standardized lift value denotes that higher is the association between the itemsets.
